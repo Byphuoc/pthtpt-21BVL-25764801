@@ -1,4 +1,4 @@
-package PTHT.SocketTCP.SocketTCP;
+package SocketTCP;
 
 import java.io.IOException;
 import java.net.ServerSocket;

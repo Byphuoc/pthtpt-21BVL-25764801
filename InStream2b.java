@@ -1,4 +1,3 @@
-package PTHT.slidetu1;
 
 import static java.lang.Thread.*;
 
