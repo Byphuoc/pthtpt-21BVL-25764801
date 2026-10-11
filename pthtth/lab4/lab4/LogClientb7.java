@@ -22,7 +22,6 @@ public class LogClientb7 {
             System.out.println("Đã kết nối tới Log Server (" + host + ":" + port + ")");
             System.out.print("Nhập câu lệnh HELLO clientId (ví dụ: HELLO client-01): ");
 
-            // Gửi câu lệnh bắt đầu HELLO
             String helloCmd = console.readLine();
             if (helloCmd == null)
                 return;
@@ -37,8 +36,6 @@ public class LogClientb7 {
             }
 
             System.out.println(">>> Bắt đầu gửi nhật ký (Nhập 'QUIT' để thoát):");
-
-            // Vòng lặp gửi tin nhắn
             String message;
             while ((message = console.readLine()) != null) {
                 writer.println(message);
